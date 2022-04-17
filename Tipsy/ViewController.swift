@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var zeroTipsLabel: UIButton!    
+    @IBOutlet weak var tenTipsLabel: UIButton!
+    @IBOutlet weak var twentyTipsLabel: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
