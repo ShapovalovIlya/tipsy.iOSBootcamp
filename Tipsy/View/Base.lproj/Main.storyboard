@@ -202,6 +202,7 @@
                         <outlet property="splitLabel" destination="bSy-Yc-886" id="eAj-Yh-fSd"/>
                         <outlet property="stepperLabel" destination="haq-5m-pqs" id="UBZ-8U-hwW"/>
                         <outlet property="tenTipsLabel" destination="7y6-Kf-yF0" id="jCj-1G-QHh"/>
+                        <outlet property="totalBillField" destination="wcN-ka-Q4F" id="IAU-GK-2RT"/>
                         <outlet property="twentyTipsLabel" destination="UtR-dU-EKt" id="82K-sE-wa7"/>
                         <outlet property="zeroTipsLabel" destination="XzR-0E-Xf7" id="KSZ-bh-oWl"/>
                         <segue destination="Dnf-m2-FPm" kind="presentation" identifier="calculateTips" id="DLw-8b-JZS"/>
