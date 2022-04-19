@@ -200,7 +200,7 @@
                     </view>
                     <connections>
                         <outlet property="splitLabel" destination="bSy-Yc-886" id="eAj-Yh-fSd"/>
-                        <outlet property="stepperLabel" destination="haq-5m-pqs" id="UBZ-8U-hwW"/>
+                        <outlet property="stepper" destination="haq-5m-pqs" id="UBZ-8U-hwW"/>
                         <outlet property="tenTipsLabel" destination="7y6-Kf-yF0" id="jCj-1G-QHh"/>
                         <outlet property="totalBillField" destination="wcN-ka-Q4F" id="IAU-GK-2RT"/>
                         <outlet property="twentyTipsLabel" destination="UtR-dU-EKt" id="82K-sE-wa7"/>
@@ -295,8 +295,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="describeLabel" destination="HGt-bn-sCv" id="rTa-JW-lYD"/>
-                        <outlet property="resultLabel" destination="uLJ-ii-hft" id="zvq-9y-CqP"/>
+                        <outlet property="describeLabel" destination="HGt-bn-sCv" id="5Pv-3c-WPK"/>
+                        <outlet property="resultLabel" destination="uLJ-ii-hft" id="fEJ-Zr-EIw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uLi-Eb-NGd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

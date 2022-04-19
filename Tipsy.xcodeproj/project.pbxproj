@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8696581F280F46FA00D63569 /* TipsyLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8696581E280F46FA00D63569 /* TipsyLogic.swift */; };
 		869C0D4C280C973700C82953 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869C0D4B280C973700C82953 /* ResultViewController.swift */; };
 		ADB689532326708D006D4E2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB689522326708D006D4E2B /* AppDelegate.swift */; };
 		ADB689552326708D006D4E2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB689542326708D006D4E2B /* SceneDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8696581E280F46FA00D63569 /* TipsyLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsyLogic.swift; sourceTree = "<group>"; };
 		869C0D4B280C973700C82953 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		ADB6894F2326708D006D4E2B /* Tipsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB689522326708D006D4E2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86965820280F470400D63569 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8696581E280F46FA00D63569 /* TipsyLogic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		869C0D4D280C974500C82953 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +87,9 @@
 			children = (
 				ADB689522326708D006D4E2B /* AppDelegate.swift */,
 				ADB689542326708D006D4E2B /* SceneDelegate.swift */,
-				869C0D4D280C974500C82953 /* Controller */,
+				86965820280F470400D63569 /* Model */,
 				869C0D4E280C977900C82953 /* View */,
+				869C0D4D280C974500C82953 /* Controller */,
 				ADB6895B2326708E006D4E2B /* Assets.xcassets */,
 				ADB6895D2326708E006D4E2B /* LaunchScreen.storyboard */,
 				ADB689602326708E006D4E2B /* Info.plist */,
@@ -161,6 +172,7 @@
 				ADB689532326708D006D4E2B /* AppDelegate.swift in Sources */,
 				ADB689552326708D006D4E2B /* SceneDelegate.swift in Sources */,
 				869C0D4C280C973700C82953 /* ResultViewController.swift in Sources */,
+				8696581F280F46FA00D63569 /* TipsyLogic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,13 +10,18 @@ import UIKit
 
 class ResultViewController: UIViewController {
 
-    @IBOutlet weak var resultLabel: UIView!
-    @IBOutlet weak var describeLabel: UIView!
+    
+    @IBOutlet weak var resultLabel: UILabel!
+    @IBOutlet weak var describeLabel: UILabel!
+    
+    var result: String?
+    var describe: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        resultLabel.text = result
+        describeLabel.text = describe
     }
     
     @IBAction func recalculateTapped(_ sender: UIButton) {
